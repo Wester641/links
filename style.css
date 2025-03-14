@@ -1,0 +1,73 @@
+.hello{
+    font-size: 50px;
+    color: red;
+}
+
+body {
+    background-image: url(./icons/vecteezy_ai-generated-nature-landscapes-background_36226872.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+main{
+    height: 100%;
+}
+.parent {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 10px;
+
+    }
+    .container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        height: 100%;
+    }
+    .logo {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+    .button {
+        display: block;
+        background: #007bff;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    .button:hover {
+        background: #0056b3;
+    }
+    .social-icons img {
+        width: 30px;
+        margin: 10px;
+    }
+
+    .img{
+        background-color: white;
+        padding: 4px;
+        border-radius: 10px;
+        width: 30px;
+
+    }
+    .img:hover{
+        background-color: transparent;
+        
+    }
