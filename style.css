@@ -1,6 +1,12 @@
-.hello{
-    font-size: 50px;
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -12,13 +18,50 @@ body {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-main{
+main {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.summary{
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .parent {
     display: grid;
     height: 90vh;
@@ -27,30 +70,25 @@ main{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     gap: 10px;
+}
 
-    }
-    .container {
-        background: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        border-radius: 15px;
-        text-align: center;
-        width: 300px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin: auto;
-        height: 100%;
-    }
-    .logo {
-        width: 80px;
-        margin-bottom: 15px;
-    }
-    .button {
-        display: block;
+.logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.button {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
         background: #007bff;
         color: white;
         text-decoration: none;
         padding: 10px;
         border-radius: 5px;
         margin: 5px 0;
+        gap: 10px;
     }
     .button:hover {
         background: #0056b3;
@@ -59,15 +97,46 @@ main{
         width: 30px;
         margin: 10px;
     }
+    .maps-img{
+        width: 30px;
+        padding: 4px;
+        border-radius: 10px;
+    }
 
     .img{
-        background-color: white;
+        background-color: #ffffff;
         padding: 4px;
         border-radius: 10px;
         width: 30px;
-
+        
     }
     .img:hover{
         background-color: transparent;
-        
     }
+
+    .opacity-hover:hover{
+        opacity: 0.8;
+    }
+
+.watermark{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.watermark a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding: 10px;
+}
+
+.watermark a:hover{
+    opacity: 0.8;
+}
+
