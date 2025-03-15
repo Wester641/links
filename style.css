@@ -84,8 +84,9 @@ main {
         grid-template-columns: 1fr;
         align-items: center;
         justify-content: center;
-        background: #007bff;
-        color: white;
+        background: #ffffff;
+        color: #000000;
+        font-weight: 600;
         text-decoration: none;
         padding: 10px;
         border-radius: 5px;
@@ -94,6 +95,7 @@ main {
     }
     .button:hover {
         background: #0056b3;
+        color: #ffffff;
     }
     .social-icons{
         margin-top: 45px;
@@ -121,7 +123,8 @@ main {
     }
 
     .opacity-hover:hover{
-        opacity: 0.8;
+        background: #0056b3;
+        color: #ffffff;
     }
 
 .watermark{
@@ -147,8 +150,9 @@ main {
 }
 
 .summary-title{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 5px;
     border-radius: 10px;
+    color: #ffffff;
 }
 
