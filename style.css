@@ -10,8 +10,9 @@ html, body {
 }
 
 body {
-    background-image: url(./icons/vecteezy_ai-generated-nature-landscapes-background_36226872.jpg);
-    background-size: cover;
+    background-image: url(./photo_2025-03-15\ 11.34.12.jpeg);
+background-size: cover;
+background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
